@@ -9,6 +9,7 @@
     width: 100%;
     background-image: url(../img/banner/banner.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner {
