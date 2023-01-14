@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* banner section css */
-.banner-container{
+.banner-container {
     height: 700px;
     width: 100%;
     background-image: url(../img/banner/banner.jpg);
     background-repeat: no-repeat;
 }
-.banner{
+
+.banner {
     width: 80%;
     height: 100%;
     margin: auto;
@@ -17,115 +19,134 @@
     align-items: center;
     position: relative;
 }
-.banner-content{
+
+.banner-content {
     position: absolute;
     right: 0;
     width: 525px;
 }
-.banner h2{
+
+.banner h2 {
     width: 525px;
     font-size: 65px;
     color: white;
 }
-.banner p{
+
+.banner p {
     display: inline-block;
     width: 500px;
     margin-top: 20px;
     color: #fff;
 }
-.header-btn{
+
+.header-btn {
     margin-top: 30px;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     color: #40248B;
     background-color: #fff;
-    border:1px solid #fff;
+    border: 1px solid #fff;
     display: inline-block;
 }
-.header-btn:hover{
+
+.header-btn:hover {
     color: #fff;
     background-color: #40248B;
-    border:1px solid #fff;
+    border: 1px solid #fff;
 }
 
 /* feature section */
-.feature-container{
+.feature-container {
     height: 720px;
 }
-.feature{
+
+.feature {
     height: 100%;
     width: 80%;
     margin: auto;
     display: flex;
     position: relative;
 }
-.feature-content{
+
+.feature-content {
     position: absolute;
     top: 240px;
     left: 680px;
     width: 420px;
 }
-.feature-content h1{
+
+.feature-content h1 {
     font-size: 40px;
 }
-.feature-content p{
+
+.feature-content p {
     font-size: 16px;
     margin-top: 24px;
     line-height: 26px;
 }
-.feature-check{
+
+.feature-check {
     font-size: 20px;
     color: green;
     margin-right: 10px;
-    
+
 }
-.feature-list p{
+
+.feature-list p {
     display: inline-block;
     font-size: 16px;
 }
 
 /* My plan section start */
-.myPlan-container{
+.myPlan-container {
     text-align: center;
     width: 100%;
     margin-top: 50px;
 }
-.myPlan-container h1, .portfolio-header h1{
-    font-size:40px ;
+
+.myPlan-container h1,
+.portfolio-header h1 {
+    font-size: 40px;
     margin: 50px;
 }
-.myPlan{
+
+.myPlan {
     width: 80%;
     height: 200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.myPlan-content h2{
+
+.myPlan-content h2 {
     font-size: 30px;
 }
-.myPlan-content p{
+
+.myPlan-content p {
     font-size: 25px;
 }
-.myPlan-content img{
+
+.myPlan-content img {
     height: 90px;
     width: 90px;
 }
 
 
 /* Announce section start */
-.announce{
+.announce {
     width: 460px;
     height: 250px;
     font-size: 40px;
 }
-.announce-container{
+
+.announce-container {
     width: 100%;
     height: 100%;
     margin-top: 50px;
 }
-.announce{
+
+.announce {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,20 +154,22 @@
     height: 100%;
     margin: auto;
     padding: 60px 65px;
-    background-image: linear-gradient(to right,rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)),
-    url('../img/watch.png');
+    background-image: linear-gradient(to right, rgba(117, 19, 93, 0.73), rgba(245, 246, 252, 0.52)),
+        url('../img/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    
+
 }
-.announce h1{
+
+.announce h1 {
     width: 450px;
     font-size: 40px;
     margin-bottom: 25px;
     color: #fff;
 }
-.announce a{
+
+.announce a {
     width: max-content;
     text-decoration: none;
     font-size: 20px;
@@ -156,71 +179,81 @@
     border: 1px solid #fff;
     border-radius: 5px;
 }
-.announce a:hover{
+
+.announce a:hover {
     background-color: #40248B;
     color: #fff;
     border: 1px solid #fff;
 }
 
 /* Css for portfolio */
-.portfolio-container{
+.portfolio-container {
     width: 100%;
     margin-bottom: 100px;
 }
-.portfolio{
+
+.portfolio {
     width: 80%;
-    margin:auto;
+    margin: auto;
 }
 
-.portfolio-header{
+.portfolio-header {
     text-align: center;
 }
-.portfolio-content{
+
+.portfolio-content {
     width: 24%;
     display: inline-block;
     margin-right: 5px;
     border: 1px solid green;
     border-radius: 5px;
 }
-.portfolio-image img{
+
+.portfolio-image img {
     width: 100%;
     height: auto;
 }
-.portfolio-title{
+
+.portfolio-title {
     width: 70%;
-    /* padding: 10px; */
     display: inline-block;
 }
-.portfolio-title h1, .portfolio-title p{
+
+.portfolio-title h1,
+.portfolio-title p {
     padding: 10px;
 }
-.portfolio-icon{
+
+.portfolio-icon {
     width: 20%;
     padding: 10px;
     font-size: 25px;
     display: inline-block;
     color: green;
 }
-.portfolio-icon a{
+
+.portfolio-icon a {
     padding: 10px;
     font-size: 25px;
     display: inline-block;
     color: rgb(62, 66, 62);
 }
-.portfolio-icon a:hover{
+
+.portfolio-icon a:hover {
     font-size: 25px;
     display: inline-block;
     color: green;
 }
 
 /* Footer section start */
-footer{
+footer {
     width: 100%;
     height: 570px;
     margin-top: 50px;
     background-color: black;
 }
-.footer-container{
+
+.footer-container {
     width: 80%;
     height: 100%;
     margin: auto;
@@ -229,31 +262,38 @@ footer{
     justify-content: space-between;
     color: #fff;
 }
-.contact{
+
+.contact {
     width: 320px;
 }
-.newsletter{
+
+.newsletter {
     width: 325px;
 }
-.newsletter h2{
+
+.newsletter h2 {
     padding: 10px;
     font-size: 25px;
 }
-.newsletter input{
+
+.newsletter input {
     display: block;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
 }
-.contact h1{
+
+.contact h1 {
     padding: 10px 0px;
 }
-.contact p{
+
+.contact p {
     padding: 10px 0px;
     font-size: 16px;
     line-height: 26px;
 }
-.link{
+
+.link {
     height: 25px;
     width: 25px;
     margin-top: 10px;
