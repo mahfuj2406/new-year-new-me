@@ -4,24 +4,31 @@
 }
 /* banner section css */
 .banner-container{
-    height: 800px;
+    height: 700px;
     width: 100%;
     background-image: url(../img/banner/banner.jpg);
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .banner{
     width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    right: 0;
+    width: 525px;
 }
 .banner h2{
-    display: inline-block;
     width: 525px;
     font-size: 65px;
     color: white;
 }
 .banner p{
+    display: inline-block;
     width: 500px;
     margin-top: 20px;
     color: #fff;
@@ -33,6 +40,7 @@
     text-decoration: none;
     color: #40248B;
     background-color: #fff;
+    border:1px solid #fff;
     display: inline-block;
 }
 .header-btn:hover{
@@ -145,10 +153,21 @@
     padding: 20px 35px;
     color: #40248B;
     background-color: #fff;
+    border: 1px solid #fff;
     border-radius: 5px;
     margin: 0;
 }
-
+.announce a:hover{
+    width: max-content;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 35px;
+    background-color: #40248B;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 0;
+}
 
 /* Footer section start */
 footer{
